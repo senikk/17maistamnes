@@ -83,7 +83,7 @@ export default {
         time: "",
       },
       {
-        title: "Leker for barn og ungdom under 20",
+        title: "17. mai-leker",
         time: "",
       },
       {
