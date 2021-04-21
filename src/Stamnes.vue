@@ -5,7 +5,7 @@
         <v-layout row>
           <v-flex xs12 sm6 md6>
             <Post title="Program for 17. mai 2021 på Stamnes">
-              <span>Årets arrangement vil foregå mellom kirken og bedehuset.</span>
+              <span>Årets arrangement vil foregå mellom kirken og bedehuset etter at gudstjenesten er ferdig.</span>
                 <v-data-table
                   :headers="calendarh"
                   :items="calendar"
@@ -24,6 +24,14 @@
             <Post title="">
               <v-list-item>
                 <img width="100%" src="hipp-hurra.png"/>
+              </v-list-item>
+            </Post>
+            <Post title="17-mai lotteri">
+              <v-list-item>
+                Gevinst er en kurv med frukt og 17. mai-mat fra Joker Stamnes. Trekning morgen lørdag 15. mai.<br><br>Vipps 25,- per lodd til 661886.
+              </v-list-item>
+              <v-list-item>
+                <img width="100%" src="qr-lotteri.png"/>
               </v-list-item>
             </Post>
             <Contact/>

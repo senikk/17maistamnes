@@ -1,6 +1,13 @@
 <template>
-    <Post title="Kontakt">
-        <v-list two-line>
+    <Post title="Leder">
+        <v-list-item>
+            <v-list-item-icon>
+                <v-icon color="indigo">mdi-account</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>
+                Terje Pedersen
+            </v-list-item-title>
+        </v-list-item>
         <v-list-item>
             <v-list-item-icon>
             <v-icon color="indigo">mdi-email</v-icon>
