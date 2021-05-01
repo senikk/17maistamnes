@@ -1,6 +1,11 @@
 <template>
   <v-app id="main">
     <v-content>
+      <v-app-bar>
+        <v-btn large color="green" class="ml-2" v-on:click="goTo('https://www.facebook.com/Joker-Stamnes-1866936976897471/')">Joker Stamnes</v-btn>
+        <v-btn large color="green" class="ml-2" v-on:click="goTo('https://syttandemai.wordpress.com/')">17. mai Vaksdal</v-btn>
+      </v-app-bar>
+
       <v-container lighten-5 grid-list-md text-xs-center>
         <v-layout row>
           <v-flex xs12 sm6 md6>
@@ -49,6 +54,9 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
+  .v-app-bar button {
+    border: 1px solid red !importent;
+  }
 </style>
 
 <script>
@@ -56,6 +64,11 @@ import Post from "./components/Post";
 import Contact from "./components/Contact";
 
 export default {
+  methods: {
+    goTo: function (href) {
+      window.open(href, '_blank');
+    }
+  },
   name: "Stamnes",
   components: {
     Post, Contact
@@ -84,10 +97,6 @@ export default {
       },
       {
         title: "Barnehageborna syng",
-        time: "",
-      },
-      {
-        title: "17. mai-tale",
         time: "",
       },
       {
