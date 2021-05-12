@@ -10,8 +10,11 @@
         <v-layout row>
           <v-flex xs12 sm6 md6>
             <Post title="Program for 17. mai 2021 på Stamnes">
-              <span>Årets arrangement vil foregå mellom kirken og bedehuset etter at gudstjenesten er ferdig.</span>
-                <v-data-table
+              <span>Årets arrangement vil foregå mellom kirken og bedehuset etter at gudstjenesten er ferdig. Arrangementet er forbeholdt barnehage og elever fra fremtidige Stamnes oppveksttun og deres søsken og foresatte. 
+              Når man kommer så man registrere seg slik at vi har oversikt over hvem som har vært tilstede på arrangementet med tanke på eventuell smittesporing. 
+              <br><br>Det blir leker for barna med gavekort fra Joker Stamnes på henholdvis 200,- for 1. plass, 150,- for 2. plass og 100,- for 3. plass i hver kategori barnhage, småskole (1kl-4kl) og storskole (5.kl-7kl).
+              <br><br>Arrangementet blir kortere enn normalt uten noen form for salg. Deltagerene på lekene vil få brus og is.</span>
+                <v-data-table 
                   :headers="calendarh"
                   :items="calendar"
                   hide-default-footer
@@ -50,7 +53,6 @@
 <style scoped>
   #main {
     background-image: url('./assets/geithaugen.jpg');
-    background-color: red;
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -104,9 +106,14 @@ export default {
         time: "",
       },
       {
-        title: "Utdeling av JA-pris - vi tar i mot forslag",
+
+        title: "Premieutdeling",
         time: "",
-        website: "https://japris.vbuk.no"
+      },
+      {
+        title: "Utdeling av JA-pris",
+        time: "",
+        website: ""
       },
     ]
   })
