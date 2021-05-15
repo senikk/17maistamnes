@@ -36,10 +36,7 @@
             </Post>
             <Post title="17-mai lotteri">
               <v-list-item>
-                Gevinst er en kurv med frukt og 17. mai-mat fra Joker Stamnes. Trekning morgen lørdag 15. mai.<br><br>Vipps 25,- per lodd til 661886.
-              </v-list-item>
-              <v-list-item>
-                <img width="100%" src="qr-lotteri.png"/>
+                Gevinst er en kurv med frukt og 17. mai-mat fra Joker Stamnes ble trukket lørdag 15. mai. og vinner ble loddnummer 106 som tilhørte Arne Normann. Gratulerer.<br><br>Vipps 25,- per lodd til 661886.
               </v-list-item>
             </Post>
             <Contact/>
